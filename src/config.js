@@ -15,9 +15,9 @@ const layersDir = path.join(basePath, "/layers");
  * General Generator Options
  ***********************/
 
-const description =
-  "This is the description of your NFT project, remember to replace this";
-const baseUri = "ipfs://NewUriToReplace";
+const description = "Pixel lover";
+const baseUri =
+  "https://aquamarine-fantastic-quokka-779.mypinata.cloud/ipfs/QmQ911Nqm6HEj2QC4uNjfFXuKaG4vPBjPJxLJAmozPkQuh/";
 
 const outputJPEG = false; // if false, the generator outputs png's
 
@@ -40,22 +40,13 @@ const background = {
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10,
-    namePrefix: "Series 2", // Use to add a name to Metadata `name:`
+    growEditionSizeTo: 81,
+    namePrefix: "pixels", // Use to add a name to Metadata `name:`
     layersOrder: [
       { name: "Background" },
-      {
-        name: "Back Accessory",
-        // options: {
-        //   bypassDNA: true,
-        // },
-      },
-      { name: "Head" },
-      { name: "Clothes" },
-      { name: "Eyes" },
-      { name: "Hair" },
-      { name: "Accessory" },
-      { name: "Shirt Accessories" },
+      { name: "Face" },
+      { name: "Attributes" },
+      { name: "Logo" },
     ],
   },
   // {
